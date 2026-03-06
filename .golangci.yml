@@ -66,6 +66,12 @@ linters:
       - common-false-positives
       - legacy
       - std-error-handling
+    rules:
+      - linters: [noctx]
+        path: _test\.go
+      - linters: [gosec]
+        path: _test\.go
+        text: "G101"
     paths:
       - third_party$
       - builtin$

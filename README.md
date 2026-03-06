@@ -34,7 +34,7 @@ Often (but not always) ideas flow through this pipeline:
 - **Docker**
 - **Go 1.24.x**
 - **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))
-- **golangci-lint v2.4.0**
+- **golangci-lint v2.11.1**
 
 #### Running the server
 
