@@ -155,5 +155,32 @@
         }
       }
     ]
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.virtualsms-io/mcp-server",
+    "description": "SMS verification API for AI agents \u2014 buy virtual phone numbers, receive OTP codes for 700+ services (Telegram, WhatsApp, Google, Facebook, TikTok) across 100+ countries. Real SIM cards, instant delivery, full refund guarantee.",
+    "repository": {
+      "url": "https://github.com/virtualsms-io/mcp-server.git",
+      "source": "github"
+    },
+    "version": "1.0.8",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "virtualsms-mcp",
+        "version": "1.0.8",
+        "runtimeHint": "npx",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "name": "VIRTUALSMS_API_KEY",
+            "description": "Your VirtualSMS API key. Get one at https://virtualsms.io/dashboard"
+          }
+        ]
+      }
+    ]
   }
 ]
